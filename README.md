@@ -9,3 +9,14 @@ deploy-allInOne
 1. maven
 * tycho
 * nodejs
+
+目录结构
+--------------
+```
+source
+	doc // 存放doc所有源代码
+	bootstrap_doc.sh // 启动发布的脚本
+server
+	doc // 部署doc项目
+```
+
