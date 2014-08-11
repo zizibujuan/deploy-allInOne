@@ -16,6 +16,16 @@ deploy-allInOne
 source
 	doc // 存放doc所有源代码
 	bootstrap_doc.sh // 启动发布的脚本
+	repository
+		com.zizibujuan.drip.deploy.allInOne
+		com.zizibujuan.doc
+		com.zizibujuan.useradmin
+		com.zizibujuan.cm
+		com.zizibujuan.server.util
+		com.zizibujuan.server.jgit
+		com.zizibujuan.client.common
+		com.zizibujuan.server.dbaccess.mysql
+		
 server
 	doc // 部署doc项目
 ```
