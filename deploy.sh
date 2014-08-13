@@ -5,13 +5,15 @@ dotGit=.git
 while [ $# -gt 0 ]
 do
 	case "$1" in
-		"-root")
+		"-buildDir")
 			buildDir="$2"; shift;;
 		
 		*) break;;
 	esac
 	shift
 done
+
+echo "buildDir = $buildDir"
 
 echo "git clone/pull doc project"
 if [[ ! -d $buildDir/doc/$dotGit ]]; then
