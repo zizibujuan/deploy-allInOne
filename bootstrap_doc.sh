@@ -1,7 +1,7 @@
 #!/bin/bash
 
 buildDir=/mnt/source/doc/repository
-deployProject=com.zizibujuan.drip.deploy.allInOne
+deployProject=deploy-allInOne
 dotGit=.git
 
 
@@ -9,10 +9,10 @@ echo "clone or pull allInOne project"
 
 if [[ ! -d $buildDir ]]; then
 	echo "first time create folder $buildDir"
-	mkdir $buildDir
+	mkdir -p $buildDir
 fi
 
-if [[ ! -d $buildDir/$deployProject/$dotGit]]; then
+if [[ ! -d $buildDir/$deployProject/$dotGit ]]; then
 	pushd $buildDir
 	git clone git@github.com:zizibujuan/deploy-allInOne.git
 	popd
