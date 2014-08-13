@@ -14,10 +14,14 @@ fi
 
 if [[ ! -d $buildDir/$deployProject/$dotGit ]]; then
 	pushd $buildDir
+	pwd
+	echo "git clone deploy project $deployProject"
 	git clone git@github.com:zizibujuan/deploy-allInOne.git
 	popd
 else
 	pushd $buildDir/$deployProject
+	pwd
+	echo "git pull deploy project $deployProject"
 	git pull
 	popd
 fi
