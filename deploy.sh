@@ -125,7 +125,7 @@ if [[ ! -d $buildDir/server.exception/$dotGit ]]; then
 	pushd $buildDir
 	pwd
 	echo "git clone project server.exception"
-	git clone ggit@github.com:zizibujuan/server.exception.git
+	git clone git@github.com:zizibujuan/server.exception.git
 	popd
 else
 	pushd $buildDir/server.exception
