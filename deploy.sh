@@ -120,6 +120,21 @@ else
 	popd
 fi
 
+echo "git clone/pull server.exception"
+if [[ ! -d $buildDir/server.exception/$dotGit ]]; then
+	pushd $buildDir
+	pwd
+	echo "git clone project server.exception"
+	git clone ggit@github.com:zizibujuan/server.exception.git
+	popd
+else
+	pushd $buildDir/server.exception
+	pwd
+	echo "git pull project server.exception"
+	git pull
+	popd
+fi
+
 
 echo "start copy osgi plugin and feature projects"
 /bin/bash -l copy_project.sh
