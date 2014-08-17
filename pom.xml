@@ -3,12 +3,14 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.zizibujuan.drip</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>com.zizibujuan.drip.parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>Drip Parent</name>
 
 	<properties>
 		<tycho-version>0.21.0</tycho-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
 	<modules>
