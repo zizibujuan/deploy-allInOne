@@ -15,37 +15,23 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	
 	<modules>
 		<!-- features -->
-		<module>server/features/com.zizibujuan.drip.base-feature</module>
-		<module>server/features/com.zizibujuan.drip.client-feature</module>
+		<module>build/features/com.zizibujuan.drip.base-feature</module>
+		<module>client/features/com.zizibujuan.drip.client-feature</module>
 		
-		
-		<module>server/features/com.zizibujuan.drip.server-feature</module>
 		<module>server/features/com.zizibujuan.drip.server.doc-feature</module>
 
 		<!-- plugins -->
-		<!-- client 
-		<module>client/bundles/com.zizibujuan.drip.client.core</module>
-		<module>client/bundles/com.zizibujuan.drip.client.editor</module>
-		<module>client/bundles/com.zizibujuan.drip.client.dojo</module>
-		<module>client/bundles/com.zizibujuan.drip.client.mathjax</module>
-		-->
-		<module>client/bundles/com.zizibujuan.drip.client.release</module>
-		<!-- server -->
-		<module>server/bundles/com.zizibujuan.drip.server.configurator</module>
-		<module>server/bundles/com.zizibujuan.dbaccess.mysql</module>
-		<module>server/bundles/com.zizibujuan.drip.server.servlet</module>
-		<module>server/bundles/com.zizibujuan.drip.server.service</module>
-		<module>server/bundles/com.zizibujuan.drip.server.service.impl</module>
-		<module>server/bundles/com.zizibujuan.drip.server.dao</module>
-		<module>server/bundles/com.zizibujuan.drip.server.dao.mysql</module>
-		<module>server/bundles/com.zizibujuan.drip.server.model</module>
-		<module>server/bundles/com.zizibujuan.drip.server.util</module>
-		<module>server/bundles/com.zizibujuan.drip.server.exception</module>
-		<module>server/bundles/com.zizibujuan.server.oauth2.sinaWeibo</module>
+		<!-- client -->
+		<module>client/bundles/com.zizibujuan.client.ace</module>
+		<module>client/bundles/com.zizibujuan.client.bootstrap</module>
+		<module>client/bundles/com.zizibujuan.client.highlight</module>
+		<module>client/bundles/com.zizibujuan.client.jquery</module>
+		<module>client/bundles/com.zizibujuan.client.marked</module>
+		<module>client/bundles/com.zizibujuan.drip.client.doc</module>
 		
-		<!-- doc help -->
-		<module>server/doc/com.zizibujuan.drip.doc</module>
+		<!-- server -->
 		<!-- doc project -->
+		<module>server/bundles/com.zizibujuan.drip.server.doc.configurator</module>
 		<module>server/bundles/com.zizibujuan.drip.server.doc.servlet</module>
 		<module>server/bundles/com.zizibujuan.drip.server.doc.service</module>
 		<module>server/bundles/com.zizibujuan.drip.server.doc.service.impl</module>
@@ -53,15 +39,37 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>server/bundles/com.zizibujuan.drip.server.doc.dao.mysql</module>
 		<module>server/bundles/com.zizibujuan.drip.server.doc.model</module>
 		
+		<!-- useradmin project -->
+		<module>com.zizibujuan.useradmin.server.model</module>
+		<module>com.zizibujuan.useradmin.server.configurator</module>
+		<module>com.zizibujuan.useradmin.server.servlets</module>
+		<module>com.zizibujuan.useradmin.server.service</module>
+		<module>com.zizibujuan.useradmin.server.service.impl</module>
+		<module>com.zizibujuan.useradmin.server.dao</module>
+		<module>com.zizibujuan.useradmin.server.dao.mysql</module>
+		<module>com.zizibujuan.server.oauth2.sinaWeibo</module>
+		
+		<!-- cm project -->
+		<module>com.zizibujuan.cm.server.configurator</module>
+		<module>com.zizibujuan.cm.server.model</module>
+		<module>com.zizibujuan.cm.server.servlets</module>
+		<module>com.zizibujuan.cm.server.service</module>
+		<module>com.zizibujuan.cm.server.service.impl</module>
+		<module>com.zizibujuan.cm.server.dao</module>
+		<module>com.zizibujuan.cm.server.dao.mysql</module>
+		
+		<!-- server utils -->
+		<module>server/bundles/com.zizibujuan.server.git</module>
+		<module>server/bundles/com.zizibujuan.drip.server.util</module>
+		<module>server/bundles/com.zizibujuan.drip.server.excception</module>
+		<module>server/bundles/com.zizibujuan.dbaccess.mysql</module>
+		
 		<!-- config -->
-		<module>server/build/com.zizibujuan.drip.server.logback.config</module>
+		<module>server/build/com.zizibujuan.drip.logback.config</module>
 		<module>server/build/com.zizibujuan.dbaccess.mysql.config</module>
 		
-		<!-- cache -->
-		<module>server/bundles/com.zizibujuan.cache.ehcache</module>
-		
 		<!-- repository -->		
-		<module>server/build/com.zizibujuan.drip.repository</module>
+		<module>server/build/com.zizibujuan.drip.product</module>
 	</modules>
 
 	<dependencies>

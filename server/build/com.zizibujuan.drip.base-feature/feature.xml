@@ -348,4 +348,35 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+         
+   <plugin
+         id="com.zizibujuan.drip.server.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="com.zizibujuan.server.git"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>      
+ 
+    <plugin
+         id="com.zizibujuan.drip.server.exception"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>     
+         
+   <plugin
+         id="com.zizibujuan.dbaccess.mysql"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>             
+         
+         
+           
 </feature>

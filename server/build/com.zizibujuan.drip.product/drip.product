@@ -14,5 +14,11 @@
    <plugins>
    </plugins>
 
+   <features>
+      <feature id="com.zizibujuan.drip.base.feature" version="0.0.1.qualifier"/>
+      <feature id="com.zizibujuan.drip.client.feature" version="0.0.1.qualifier"/>
+      <feature id="com.zizibujuan.drip.server.doc.feature" version="0.0.1.qualifier"/>
+   </features>
+
 
 </product>

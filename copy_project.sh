@@ -27,10 +27,10 @@ cp -a $docClientBundle/com.zizibujuan.client.marked $targetClientBundle
 
 echo "copy common server"
 
-cp -a $buildDir/dbaccess.mysql $targetServerBundle
-cp -a $buildDir/server.exception $targetServerBundle
-cp -a $buildDir/server.util $targetServerBundle
-cp -a $buildDir/server.jgit $targetServerBundle
+cp -a $buildDir/dbaccess.mysql/* $targetServerBundle/com.zizibujuan.dbaccess.mysql/
+cp -a $buildDir/server.exception/* $targetServerBundle/com.zizibujuan.drip.server.exception/
+cp -a $buildDir/server.util/* $targetServerBundle/com.zizibujuan.drip.server.util/
+cp -a $buildDir/server.jgit/* $targetServerBundle/com.zizibujuan.server.git/
 
 echo "copy doc"
 
