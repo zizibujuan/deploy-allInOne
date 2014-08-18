@@ -27,6 +27,11 @@ cp -a $docClientBundle/com.zizibujuan.client.marked $targetClientBundle
 
 echo "copy common server"
 
+mkdir -p $targetServerBundle/com.zizibujuan.dbaccess.mysql
+mkdir -p $targetServerBundle/com.zizibujuan.drip.server.exception
+mkdir -p $targetServerBundle/com.zizibujuan.drip.server.util
+mkdir -p $targetServerBundle/com.zizibujuan.server.git
+
 cp -a $buildDir/dbaccess.mysql/* $targetServerBundle/com.zizibujuan.dbaccess.mysql/
 cp -a $buildDir/server.exception/* $targetServerBundle/com.zizibujuan.drip.server.exception/
 cp -a $buildDir/server.util/* $targetServerBundle/com.zizibujuan.drip.server.util/
@@ -36,6 +41,7 @@ echo "copy doc"
 
 docServerBundle=$buildDir/doc/server/bundles
 
+cp -a $docServerBundle/com.zizibujuan.drip.server.doc.configurator $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.model $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.servlet $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.service $targetServerBundle
