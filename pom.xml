@@ -15,7 +15,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	
 	<modules>
 		<!-- features -->
-		<module>build/features/com.zizibujuan.drip.base-feature</module>
+		<module>server/build/com.zizibujuan.drip.base-feature</module>
 		<module>client/features/com.zizibujuan.drip.client-feature</module>
 		
 		<module>server/features/com.zizibujuan.drip.server.doc-feature</module>
