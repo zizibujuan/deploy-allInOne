@@ -14,6 +14,10 @@ rm -rf $targetServerBundle
 rm -rf $targetServerFeature
 rm -rf $targetClientBundle
 
+mkdir -p $targetServerBundle
+mkdir -p $targetServerFeature
+mkdir -p $targetClientBundle
+
 echo "copy common client"
 
 docClientBundle=$buildDir/doc/client/bundles
