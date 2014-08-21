@@ -41,7 +41,6 @@ echo "copy doc"
 
 docServerBundle=$buildDir/doc/server/bundles
 docServerFeature=$buildDir/doc/server/features
-docClientBundle=$buildDir/doc/client/bundles
 
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.configurator $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.model $targetServerBundle
@@ -50,9 +49,6 @@ cp -a $docServerBundle/com.zizibujuan.drip.server.doc.service $targetServerBundl
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.service.impl $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.dao $targetServerBundle
 cp -a $docServerBundle/com.zizibujuan.drip.server.doc.dao.mysql $targetServerBundle
-
-cp -a $docClientBundle/com.zizibujuan.drip.client.core $targetClientBundle
-
 cp -a $docServerFeature/com.zizibujuan.drip.server.doc-feature $targetServerFeature
 
 
