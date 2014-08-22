@@ -40,23 +40,23 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>server/bundles/com.zizibujuan.drip.server.doc.model</module>
 		
 		<!-- useradmin project -->
-		<module>com.zizibujuan.useradmin.server.model</module>
-		<module>com.zizibujuan.useradmin.server.configurator</module>
-		<module>com.zizibujuan.useradmin.server.servlets</module>
-		<module>com.zizibujuan.useradmin.server.service</module>
-		<module>com.zizibujuan.useradmin.server.service.impl</module>
-		<module>com.zizibujuan.useradmin.server.dao</module>
-		<module>com.zizibujuan.useradmin.server.dao.mysql</module>
-		<module>com.zizibujuan.server.oauth2.sinaWeibo</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.model</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.configurator</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.servlets</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.service</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.service.impl</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.dao</module>
+		<module>server/bundles/com.zizibujuan.useradmin.server.dao.mysql</module>
+		<module>server/bundles/com.zizibujuan.server.oauth2.sinaWeibo</module>
 		
 		<!-- cm project -->
-		<module>com.zizibujuan.cm.server.configurator</module>
-		<module>com.zizibujuan.cm.server.model</module>
-		<module>com.zizibujuan.cm.server.servlets</module>
-		<module>com.zizibujuan.cm.server.service</module>
-		<module>com.zizibujuan.cm.server.service.impl</module>
-		<module>com.zizibujuan.cm.server.dao</module>
-		<module>com.zizibujuan.cm.server.dao.mysql</module>
+		<module>server/bundles/com.zizibujuan.cm.server.configurator</module>
+		<module>server/bundles/com.zizibujuan.cm.server.model</module>
+		<module>server/bundles/com.zizibujuan.cm.server.servlets</module>
+		<module>server/bundles/com.zizibujuan.cm.server.service</module>
+		<module>server/bundles/com.zizibujuan.cm.server.service.impl</module>
+		<module>server/bundles/com.zizibujuan.cm.server.dao</module>
+		<module>server/bundles/com.zizibujuan.cm.server.dao.mysql</module>
 		
 		<!-- server utils -->
 		<module>server/bundles/com.zizibujuan.server.git</module>
