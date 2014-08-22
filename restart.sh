@@ -38,14 +38,14 @@ cp $mavenDir$zipFile /mnt/backup/
 #跳转到drip仓库所在的文件夹
 pushd $codeDir
 
-echo 更新最新的代码
-git pull
-echo 更新所有的子模块
-git submodule update
+#echo 更新最新的代码
+#git pull
+#echo 更新所有的子模块
+#git submodule update
 
 echo 执行自动化构建
 #mvn clean install -P aliyun_webserver
-mvn clean install -P rds_product
+#mvn clean install -P rds_product
 
 popd
 
