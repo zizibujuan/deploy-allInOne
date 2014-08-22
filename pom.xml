@@ -61,7 +61,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<!-- server utils -->
 		<module>server/bundles/com.zizibujuan.server.git</module>
 		<module>server/bundles/com.zizibujuan.drip.server.util</module>
-		<module>server/bundles/com.zizibujuan.drip.server.excception</module>
+		<module>server/bundles/com.zizibujuan.drip.server.exception</module>
 		<module>server/bundles/com.zizibujuan.dbaccess.mysql</module>
 		
 		<!-- config -->
