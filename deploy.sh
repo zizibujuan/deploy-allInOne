@@ -18,13 +18,11 @@ echo "buildDir = $buildDir"
 echo "git clone/pull doc project"
 if [[ ! -d $buildDir/doc/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project doc"
 	git clone git@github.com:zizibujuan/doc.git
 	popd
 else
 	pushd $buildDir/doc
-	pwd
 	echo "git pull project doc"
 	git pull
 	popd
@@ -33,13 +31,11 @@ fi
 echo "git clone/pull useradmin project"
 if [[ ! -d $buildDir/useradmin/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project useradmin"
 	git clone git@github.com:zizibujuan/useradmin.git
 	popd
 else
 	pushd $buildDir/useradmin
-	pwd
 	echo "git pull project useradmin"
 	git pull
 	popd
@@ -48,13 +44,11 @@ fi
 echo "git clone/pull cm project"
 if [[ ! -d $buildDir/cm/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project cm"
 	git clone git@github.com:zizibujuan/cm.git
 	popd
 else
 	pushd $buildDir/cm
-	pwd
 	echo "git pull project cm"
 	git pull
 	popd
@@ -63,13 +57,11 @@ fi
 echo "git clone/pull server.util"
 if [[ ! -d $buildDir/server.util/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project server.util"
 	git clone git@github.com:zizibujuan/server.util.git
 	popd
 else
 	pushd $buildDir/server.util
-	pwd
 	echo "git pull project server.util"
 	git pull
 	popd
@@ -78,13 +70,11 @@ fi
 echo "git clone/pull server.jgit"
 if [[ ! -d $buildDir/server.jgit/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project server.jgit"
 	git clone git@github.com:zizibujuan/server.jgit.git
 	popd
 else
 	pushd $buildDir/server.jgit
-	pwd
 	echo "git pull project server.jgit"
 	git pull
 	popd
@@ -93,13 +83,11 @@ fi
 echo "git clone/pull client.common"
 if [[ ! -d $buildDir/client.common/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project client.common"
 	git clone git@github.com:zizibujuan/client.common.git
 	popd
 else
 	pushd $buildDir/client.common
-	pwd
 	echo "git pull project client.common"
 	git pull
 	popd
@@ -108,13 +96,11 @@ fi
 echo "git clone/pull server.dbaccess.mysql"
 if [[ ! -d $buildDir/dbaccess.mysql/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project dbaccess.mysql"
 	git clone git@github.com:zizibujuan/dbaccess.mysql.git
 	popd
 else
 	pushd $buildDir/dbaccess.mysql
-	pwd
 	echo "git pull project dbaccess.mysql"
 	git pull
 	popd
@@ -123,13 +109,11 @@ fi
 echo "git clone/pull server.exception"
 if [[ ! -d $buildDir/server.exception/$dotGit ]]; then
 	pushd $buildDir
-	pwd
 	echo "git clone project server.exception"
 	git clone git@github.com:zizibujuan/server.exception.git
 	popd
 else
 	pushd $buildDir/server.exception
-	pwd
 	echo "git pull project server.exception"
 	git pull
 	popd
