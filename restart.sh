@@ -1,56 +1,20 @@
 #!/bin/bash
 
-# 下面的代码移到对应的shell文件中
-
-#local
-#项目名称
-#projectName=baosuzhai
-#drip仓库所在的路径
-#codeDir=/home/jzw/git/private/$projectName
-#maven仓库所在的路径
-#mavenDir=/home/jzw/.m2/repository/com/zizibujuan/drip/com.zizibujuan.drip.product/0.0.1-SNAPSHOT/
 #部署的文件夹
-#serverHome=/home/jzw/server/
-#product压缩文件
-#zipFile=com.zizibujuan.drip.product-0.0.1-SNAPSHOT-linux.gtk.x86.zip
-
-#server
+serverHome=/mnt/server/
 #项目名称
 projectName=com.zizibujuan.drip
 
-#drip仓库所在的路径
-codeDir=/mnt/git/sources/$projectName
 
 #maven仓库所在的路径
 mavenDir=/root/.m2/repository/com/zizibujuan/drip/com.zizibujuan.drip.product/0.0.1-SNAPSHOT/
-
-
-#部署的文件夹
-serverHome=/mnt/server/
 
 #product压缩文件
 zipFile=com.zizibujuan.drip.product-0.0.1-SNAPSHOT-linux.gtk.x86_64.zip
 
 #TODO：备份zip文件
 #$mavenDir$zipFile
-cp $mavenDir$zipFile /mnt/backup/
-
-#跳转到drip仓库所在的文件夹
-pushd $codeDir
-
-#echo 更新最新的代码
-#git pull
-#echo 更新所有的子模块
-#git submodule update
-
-echo 执行自动化构建
-#mvn clean install -P aliyun_webserver
-#mvn clean install -P rds_product
-
-popd
-
-
-
+# mv $mavenDir$zipFile /mnt/backup/
 
 #关闭正在运行的服务器
 echo 判断是否已有服务器在运行
@@ -83,3 +47,4 @@ echo "$!"
 pid_eclipse="$!"
 echo $pid_eclipse > $serverHome$projectName/current.pid
 popd
+echo "Restart complete"
