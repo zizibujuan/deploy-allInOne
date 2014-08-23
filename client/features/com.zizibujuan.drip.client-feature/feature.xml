@@ -18,38 +18,9 @@
    </license>
 
    <plugin
-         id="com.zizibujuan.client.ace"
+         id="com.zizibujuan.drip.client.release"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
 
-   <plugin
-         id="com.zizibujuan.client.bootstrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="com.zizibujuan.client.highlight"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="com.zizibujuan.client.jquery"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-         
-   <plugin
-         id="com.zizibujuan.client.marked"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="com.zizibujuan.drip.client.doc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
 </feature>
