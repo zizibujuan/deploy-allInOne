@@ -29,7 +29,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>client/bundles/com.zizibujuan.client.marked</module>
 		<module>client/bundles/com.zizibujuan.drip.client.doc</module>
 		-->
-		<module>com.zizibujuan.drip.client.release</module>
+		<module>client/bundles/com.zizibujuan.drip.client.release</module>
 		
 		<!-- server -->
 		<!-- doc project -->
