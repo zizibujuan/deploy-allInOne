@@ -126,9 +126,9 @@ echo "start copy osgi plugin and feature projects"
 echo "build js and css"
 # not impl
 
-echo "start install projects"
-mvn clean install
+#echo "start install projects"
+#mvn clean install
 
-echo "restart server"
-/bin/bash -l restart.sh
+#echo "restart server"
+#/bin/bash -l restart.sh
 
