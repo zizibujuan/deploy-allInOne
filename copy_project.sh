@@ -12,11 +12,9 @@ targetClientBundle=$targetProject/client/bundles
 echo "delete old files..."
 rm -rf $targetServerBundle
 rm -rf $targetServerFeature
-rm -rf $targetClientBundle
 
 mkdir -p $targetServerBundle
 mkdir -p $targetServerFeature
-mkdir -p $targetClientBundle
 
 echo "copy common client"
 
