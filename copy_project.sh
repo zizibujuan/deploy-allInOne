@@ -22,21 +22,14 @@ mkdir $targetClientBundle/com.zizibujuan.drip.client.release/static
 
 echo "copy common client"
 
-mkdir -p $releaseClientDir/doc
-mkdir -p $releaseClientDir/ace
-mkdir -p $releaseClientDir/bootstrap
-mkdir -p $releaseClientDir/highlight
-mkdir -p $releaseClientDir/jquery
-mkdir -p $releaseClientDir/marked
-
 
 docClientBundle=$buildDir/doc/client/bundles
-cp -a $docClientBundle/com.zizibujuan.drip.client.doc/web/doc $releaseClientDir/doc
-cp -a $docClientBundle/com.zizibujuan.client.ace/static/ace $releaseClientDir/ace
-cp -a $docClientBundle/com.zizibujuan.client.bootstrap/static/bootstrap $releaseClientDir/bootstrap
-cp -a $docClientBundle/com.zizibujuan.client.highlight/static/highlight $releaseClientDir/highlight
-cp -a $docClientBundle/com.zizibujuan.client.jquery/static/jquery $releaseClientDir/jquery
-cp -a $docClientBundle/com.zizibujuan.client.marked/static/marked $releaseClientDir/marked
+cp -a $docClientBundle/com.zizibujuan.drip.client.doc/web/doc $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.ace/static/ace $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.bootstrap/static/bootstrap $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.highlight/static/highlight $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.jquery/static/jquery $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.marked/static/marked $releaseClientDir
 
 
 echo "copy common server"
