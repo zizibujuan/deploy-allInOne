@@ -121,7 +121,7 @@ fi
 
 
 echo "start copy osgi plugin and feature projects"
-#/bin/bash -l copy_project.sh
+/bin/bash -l copy_project.sh
 
 echo "build js and css"
 # not impl
