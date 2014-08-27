@@ -62,6 +62,7 @@ cp -a $docServerFeature/com.zizibujuan.drip.server.doc-feature $targetServerFeat
 echo "copy useradmin"
 
 useradminServerBundle=$buildDir/useradmin/server/bundles
+useradminServerFeature=$buildDir/useradmin/server/features
 
 cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.model $targetServerBundle
 cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.configurator $targetServerBundle
@@ -70,12 +71,14 @@ cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.service $targetServ
 cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.service.impl $targetServerBundle
 cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.dao $targetServerBundle
 cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.dao.mysql $targetServerBundle
+cp -a $useradminServerFeature/com.zizibujuan.useradmin.server-feature $targetServerFeature
 
 cp -a $useradminServerBundle/com.zizibujuan.server.oauth2.sinaWeibo $targetServerBundle
 
 echo "copy cm"
 
 cmServerBundle=$buildDir/cm/server/bundles
+cmServerFeature=$buildDir/cm/server/features
 
 cp -a $cmServerBundle/com.zizibujuan.cm.server.configurator $targetServerBundle
 cp -a $cmServerBundle/com.zizibujuan.cm.server.model $targetServerBundle
@@ -84,3 +87,4 @@ cp -a $cmServerBundle/com.zizibujuan.cm.server.service $targetServerBundle
 cp -a $cmServerBundle/com.zizibujuan.cm.server.service.impl $targetServerBundle
 cp -a $cmServerBundle/com.zizibujuan.cm.server.dao $targetServerBundle
 cp -a $cmServerBundle/com.zizibujuan.cm.server.dao.mysql $targetServerBundle
+cp -a $cmServerFeature/com.zizibujuan.cm.server-feature $targetServerFeature
