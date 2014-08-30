@@ -39,6 +39,13 @@
       <plugin id="com.fasterxml.jackson.core.jackson-core" autoStart="true" startLevel="0" />
       <plugin id="com.fasterxml.jackson.core.jackson-databind" autoStart="true" startLevel="0" />
       <plugin id="com.google.gson" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.configurator" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.dao" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.dao.mysql" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.model" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.service" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.service.impl" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.cm.server.servlets" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.dbaccess.mysql" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.client.release" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.server.doc.configurator" autoStart="true" startLevel="0" />
@@ -51,6 +58,14 @@
       <plugin id="com.zizibujuan.drip.server.exception" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.server.util" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.server.git" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.server.oauth2.sinaWeibo" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.configurator" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.dao" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.dao.mysql" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.model" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.service" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.service.impl" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.useradmin.server.servlets" autoStart="true" startLevel="0" />
       <plugin id="javax.mail" autoStart="true" startLevel="0" />
       <plugin id="javax.servlet" autoStart="true" startLevel="0" />
       <plugin id="org.apache.commons.email" autoStart="true" startLevel="0" />
