@@ -127,7 +127,7 @@ echo "build js and css"
 # not impl
 
 echo "start install projects"
-mvn clean install
+mvn clean install -P rds_product
 
 echo "restart server"
 /bin/bash -l restart.sh
