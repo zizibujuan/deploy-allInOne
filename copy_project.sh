@@ -61,6 +61,7 @@ cp -a $docServerFeature/com.zizibujuan.drip.server.doc-feature $targetServerFeat
 
 echo "copy useradmin"
 
+useradminClientBundle=$buildDir/useradmin/client/bundles
 useradminServerBundle=$buildDir/useradmin/server/bundles
 useradminServerFeature=$buildDir/useradmin/server/features
 
@@ -74,6 +75,7 @@ cp -a $useradminServerBundle/com.zizibujuan.useradmin.server.dao.mysql $targetSe
 cp -a $useradminServerFeature/com.zizibujuan.useradmin.server-feature $targetServerFeature
 
 cp -a $useradminServerBundle/com.zizibujuan.server.oauth2.sinaWeibo $targetServerBundle
+cp -a $useradminClientBundle/com.zizibujuan.useradmin.client.ui/static/useradmin $releaseClientDir
 
 echo "copy cm"
 
