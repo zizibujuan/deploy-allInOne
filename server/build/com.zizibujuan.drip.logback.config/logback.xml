@@ -27,23 +27,27 @@
 
   <!-- Prints information on locating and reading the server configuration file -->
   <!-- common -->
-  <logger name="com.chinairi.server.util" level="DEBUG"/>
-  <logger name="com.chinairi.dbaccess.oracle" level="DEBUG"/>
+  <logger name="com.zizibujuan.drip.server.util" level="DEBUG"/>
+  <logger name="com.zizibujuan.dbaccess.mysql" level="DEBUG"/>
   
   <!-- cm -->
-  <logger name="com.chinairi.cm.server.servlets" level="DEBUG"/>
-  <logger name="com.chinairi.cm.server.dao.oracle" level="DEBUG"/>
-  <logger name="com.chinairi.cm.server.service.impl" level="DEBUG"/>
+  <logger name="com.zizibujuan.cm.server.configurator" level="DEBUG"/>
+  <logger name="com.zizibujuan.cm.server.servlets" level="DEBUG"/>
+  <logger name="com.zizibujuan.cm.server.service.impl" level="DEBUG"/>
+  <logger name="com.zizibujuan.cm.server.dao.mysql" level="DEBUG"/>
   
   <!-- useradmin -->
-  <logger name="com.chinairi.system.server.servlets" level="DEBUG"/>
-  <logger name="com.chinairi.system.server.dao.oracle" level="DEBUG"/>
-  <logger name="com.chinairi.system.server.service.impl" level="DEBUG"/>
+  <logger name="com.zizibujuan.useradmin.server.configurator" level="DEBUG"/>
+  <logger name="com.zizibujuan.useradmin.server.servlets" level="DEBUG"/>
+  <logger name="com.zizibujuan.useradmin.server.service.impl" level="DEBUG"/>
+  <logger name="com.zizibujuan.useradmin.server.dao.mysql" level="DEBUG"/>
   
   <!-- doc -->
-  <logger name="com.chinairi.pm.server.servlets" level="DEBUG"/>
-  <logger name="com.chinairi.pm.server.dao.oracle" level="DEBUG"/>
-  <logger name="com.chinairi.pm.server.service.impl" level="DEBUG"/>
+  
+  <logger name="com.zizibujuan.drip.server.doc.configurator" level="DEBUG"/>
+  <logger name="com.zizibujuan.drip.server.doc.servlet" level="DEBUG"/>
+  <logger name="com.zizibujuan.drip.server.doc.service.impl" level="DEBUG"/>
+  <logger name="com.zizibujuan.drip.server.doc.dao.mysql" level="DEBUG"/>
 
   <root level="WARN">
     <appender-ref ref="STDOUT" />

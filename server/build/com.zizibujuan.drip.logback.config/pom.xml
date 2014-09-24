@@ -9,8 +9,8 @@
 	<name>com.zizibujuan.drip.logback.config</name>
 
 	<parent>
-		<groupId>com.zizibujuan</groupId>
-		<artifactId>parent</artifactId>
+		<groupId>com.zizibujuan.drip</groupId>
+		<artifactId>com.zizibujuan.drip.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../../../pom.xml</relativePath>
 	</parent>

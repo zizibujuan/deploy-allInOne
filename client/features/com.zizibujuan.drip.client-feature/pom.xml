@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<version>0.0.1-SNAPSHOT</version>
-	<artifactId>com.zizibujuan.dbaccess.mysql.config</artifactId>
-	<packaging>eclipse-plugin</packaging>
-	<name>com.zizibujuan.dbaccess.mysql.config</name>
+	<artifactId>com.zizibujuan.drip.client.feature</artifactId>
+	<packaging>eclipse-feature</packaging>
+	<name>com.zizibujuan.drip.client.feature</name>
 
 	<parent>
 		<groupId>com.zizibujuan.drip</groupId>
@@ -15,15 +15,4 @@
 		<relativePath>../../../pom.xml</relativePath>
 	</parent>
 
-	<build>
-		<resources>
-			<resource>
-				<directory>${project.basedir}</directory>
-				<filtering>true</filtering>
-				<includes>
-					<include>jdbc.properties</include>
-				</includes>
-			</resource>
-		</resources>
-	</build>
 </project>
