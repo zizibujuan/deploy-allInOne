@@ -43,7 +43,7 @@
   <logger name="com.zizibujuan.useradmin.server.dao.mysql" level="DEBUG"/>
   
   <!-- doc -->
-  
+  <logger name="com.zizibujuan.drip.client.doc" level="DEBUG"/>
   <logger name="com.zizibujuan.drip.server.doc.configurator" level="DEBUG"/>
   <logger name="com.zizibujuan.drip.server.doc.servlet" level="DEBUG"/>
   <logger name="com.zizibujuan.drip.server.doc.service.impl" level="DEBUG"/>
