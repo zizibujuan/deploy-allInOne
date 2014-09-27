@@ -8,28 +8,32 @@ targetProject=$buildDir/$deployProject
 targetServerBundle=$targetProject/server/bundles
 targetServerFeature=$targetProject/server/features
 targetClientBundle=$targetProject/client/bundles
-releaseClientDir=$targetClientBundle/com.zizibujuan.drip.client.release/static
+releaseClientDir=$targetClientBundle/com.zizibujuan.drip.client.doc/web
 
 echo "delete old files..."
 rm -rf $targetServerBundle
 rm -rf $targetServerFeature
-rm -rf $releaseClientDir
+rm -rf $targetClientBundle
 
 
 mkdir -p $targetServerBundle
 mkdir -p $targetServerFeature
-mkdir $targetClientBundle/com.zizibujuan.drip.client.release/static
+mkdir -p $targetClientBundle
 
 echo "copy common client"
 
 
 docClientBundle=$buildDir/doc/client/bundles
-cp -a $docClientBundle/com.zizibujuan.drip.client.doc/web/doc $releaseClientDir
+
+cp -a $docClientBundle/com.zizibujuan.drip.client.doc $targetClientBundle
 cp -a $docClientBundle/com.zizibujuan.client.ace/static/ace $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.bootstrap/static/bootstrap $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.highlight/static/highlight $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.jquery/static/jquery $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.marked/static/marked $releaseClientDir
+
+# override plugin.xml
+cp $targetProject/client_plugin.xml $targetClientBundle/com.zizibujuan.drip.client.doc/plugin.xml
 
 
 echo "copy common server"
