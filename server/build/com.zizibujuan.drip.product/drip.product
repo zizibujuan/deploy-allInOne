@@ -47,7 +47,7 @@
       <plugin id="com.zizibujuan.cm.server.service.impl" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.cm.server.servlets" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.dbaccess.mysql" autoStart="true" startLevel="0" />
-      <plugin id="com.zizibujuan.drip.client.release" autoStart="true" startLevel="0" />
+      <plugin id="com.zizibujuan.drip.client.doc" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.server.doc.configurator" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.server.doc.dao" autoStart="true" startLevel="0" />
       <plugin id="com.zizibujuan.drip.server.doc.dao.mysql" autoStart="true" startLevel="0" />
