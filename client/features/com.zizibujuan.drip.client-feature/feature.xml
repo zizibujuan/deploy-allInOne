@@ -18,7 +18,7 @@
    </license>
 
    <plugin
-         id="com.zizibujuan.drip.client.release"
+         id="com.zizibujuan.drip.client.doc"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
