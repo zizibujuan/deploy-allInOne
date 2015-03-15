@@ -31,6 +31,7 @@ cp -a $docClientBundle/com.zizibujuan.client.bootstrap/static/bootstrap $release
 cp -a $docClientBundle/com.zizibujuan.client.highlight/static/highlight $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.jquery/static/jquery $releaseClientDir
 cp -a $docClientBundle/com.zizibujuan.client.marked/static/marked $releaseClientDir
+cp -a $docClientBundle/com.zizibujuan.client.videojs/static/videojs $releaseClientDir
 
 # override plugin.xml
 cp $targetProject/client_plugin.xml $targetClientBundle/com.zizibujuan.drip.client.doc/plugin.xml
